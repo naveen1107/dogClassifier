@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <h2 class="display-4 text-center"> Select a Dog or Human Face Image</h2>
+    </div>
+    <div class="mt-2 d-flex justify-content-center">
+        <form method=post enctype=multipart/form-data>
+            <input class="btn btn-secondary" type=file name=image>
+            <input class="btn btn-secondary" type=submit value=Upload>
+        </form>
+    </div>
+    <div class="mt-2 row">
+        <ul>
+            <li>If a dog is detected, it will determine of which breed it most likely is.</li>
+            <li>If a human face is detected, it will determine which dog breed is most resembling.</li>
+        </ul>
+    </div>
+
+    
+    
+    
+{% endblock %}
