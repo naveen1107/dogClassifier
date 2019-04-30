@@ -79,7 +79,7 @@ The model architecture used is as follows:
 
 The model was trained on 6680 dog images using 50 epochs to find the best weights. I then used the trained model to predict the results of 836 test dog images. The result was a test accuracy of 71%.
 
-Detector Results:
+### Detector Results:
 
 With a small test set of 100 human face images and 100 dog images, the following result was determined:
 
