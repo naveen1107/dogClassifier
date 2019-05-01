@@ -52,7 +52,7 @@ My motivation for this project was to develop an image classifier using transfer
 
 1. Identify whether the image is of a dog or a human.
 2. If app detects a human, it'll return the dog breed that best resembles the human.
-3. If app detects a dog, will return the predicted breed of that dog.
+3q. If app detects a dog, will return the predicted breed of that dog.
 
 I was also interested in working with Flask framework to deploy the models for further use of the app by other users.
 
@@ -66,6 +66,8 @@ The `model.py` contains all of the necessary functions for getting the dog breed
 - `model.py` is the main prediction script that utilizes the detector functions and helper functions
 
 The requirements.txt file includes all of therequired libraries for this project.
+
+**You can find the Data Preparation, Data Preprocessing and Model training Code in dog_app.ipynb file**
 
 ## Summary of Model and Results
 
